@@ -34,7 +34,7 @@ Herramientas Utilizadas
 # Configuración de Dependencias
 
 Las pruebas fueron configuradas utilizando las siguientes dependencias en el archivo pom.xml:
-'<dependencies>
+'''<dependencies>
 <dependency>
 <groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -81,7 +81,7 @@ Las pruebas fueron configuradas utilizando las siguientes dependencias en el arc
 		    <artifactId>mockito-junit-jupiter</artifactId>
 		    <scope>test</scope>
 		</dependency>
-			</dependencies>'
+			</dependencies>'''
 
 # Configuración de Base de Datos para Pruebas
 
