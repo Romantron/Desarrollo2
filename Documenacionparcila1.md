@@ -34,7 +34,7 @@ Herramientas Utilizadas
 # Configuración de Dependencias
 
 Las pruebas fueron configuradas utilizando las siguientes dependencias en el archivo pom.xml:
-'''
+```
 <dependencies>
 <dependency>
 <groupId>org.springframework.boot</groupId>
@@ -83,12 +83,12 @@ Las pruebas fueron configuradas utilizando las siguientes dependencias en el arc
 		    <scope>test</scope>
 		</dependency>
 			</dependencies>
-   '''
+```
 
 # Configuración de Base de Datos para Pruebas
 
 Se utilizó H2 como base de datos en memoria. La configuración en application.properties es:
-
+```
 spring.application.name=agenda
 spring.datasource.url=jdbc:h2:mem:agenda
 spring.datasource.driver-class-name=org.h2.Driver
@@ -101,6 +101,7 @@ spring.security.user.password=admin
 spring.h2.console.settings.web-allow-others=true
 spring.security.user.name=
 spring.security.user.password=
+```
 
 
 # Pruebas unitarias realizadas.
@@ -110,7 +111,7 @@ Las pruebas unitarias verifican la lógica de negocio del controlador de contact
 Implementación de Pruebas Unitarias
 
 clase ContactoControllerTest
-
+```
 package com.agenda.agenda;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -176,6 +177,8 @@ class ContactoControllerTest {
         assertEquals("Nombre inválido.", resultado); // Agregar validación en tu código
     }
 }
+```
+
 
 # Casos de Prueba
 
